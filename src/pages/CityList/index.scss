@@ -1,0 +1,49 @@
+.cityList {
+  height: 100%;
+  padding-top: 45px;
+  position: relative;
+  .newsList {
+    height: 100%;
+    .title {
+      height: 36px;
+      line-height: 36px;
+      padding-left: 10px;
+      color: #aaa1a1;
+      font-size: 12px;
+    }
+    .name {
+      height: 50px;
+      line-height: 50px;
+      padding-left: 10px;
+      border-bottom: 1px solid #eee;
+    }
+  }
+  .adm-nav-bar {
+    margin-top: -45px;
+  }
+  .city-index {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 5px;
+    z-index: 1;
+    height: 90%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+    top: 35px;
+    .city-index-item {
+      flex: 1;
+      .index-active {
+        color: #fff;
+        background-color: #21b97a;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: 12px;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+      }
+    }
+  }
+}
